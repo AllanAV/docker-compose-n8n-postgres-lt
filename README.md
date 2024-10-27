@@ -32,8 +32,8 @@ Once the services are running, you can access n8n locally by opening [http://loc
 ### with localtunnel
 
 > **WARNING**: Use for local development and testing only. DO NOT use in production!
-[https://github.com/n8n-io/localtunnel](https://github.com/n8n-io/localtunnel) redirects requests from lt servers to your local n8n instance, making n8n reachable from the web enabling the use of webhooks with all triggers of external services. 
 
+[https://github.com/n8n-io/localtunnel](https://github.com/n8n-io/localtunnel) redirects requests from lt servers to your local n8n instance, making n8n reachable from the web enabling the use of webhooks with all triggers of external services. 
 As long as your local instance of lt remains active, any requests will be routed to your local service at the specified port. 
 The URL can be obtained from the Localtunnel logs, by running:
 
