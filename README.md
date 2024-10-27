@@ -49,7 +49,8 @@ docker-compose down
 ## Updating n8n
 
 To update n8n to the latest version, follow the steps provided in the official [n8n Docker Update documentation](https://docs.n8n.io/hosting/installation/docker/#updating).
-Credits and References:
 
-  n8n Docker setup with PostgreSQL: [n8n official GitHub repository](https://github.com/n8n-io/n8n-hosting/tree/main/docker-compose/withPostgres)
-  Localtunnel with Docker Compose tutorial: [LocalTunnel.me with Docker Compose](https://medium.com/@baldrailers/localtunnel-me-with-docker-compose-b432b1d48f7f)
+## Credits and References:
+
+- n8n Docker setup with PostgreSQL: [n8n official GitHub repository](https://github.com/n8n-io/n8n-hosting/tree/main/docker-compose/withPostgres)
+- Localtunnel with Docker Compose tutorial: [LocalTunnel.me with Docker Compose](https://medium.com/@baldrailers/localtunnel-me-with-docker-compose-b432b1d48f7f)
