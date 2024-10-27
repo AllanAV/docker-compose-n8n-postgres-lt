@@ -17,6 +17,8 @@ cd docker-compose-n8n-postgres-lt
 
 ## Running the Services
 
+IMPORTANT: Before you do that change the default users and passwords in the .env file!
+
 To start all services, run the following command in the root of this directory:
 ```bash
 docker-compose up -d
@@ -25,14 +27,16 @@ This command will start all required services in the background.
 
 ## Accessing n8n
 
-Once the services are running, you can access n8n locally by visiting [http://localhost:5678](http://localhost:5678) or externally using the unique localtunnel URL, as long as your local instance of lt remains active. Any requests will be routed to your local service at the specified port. The URL can be obtained from the Localtunnel logs, by running:
+Once the services are running, you can access n8n locally by visiting [http://localhost:5678](http://localhost:5678) or externally using the unique localtunnel URL. 
+As long as your local instance of lt remains active, any requests will be routed to your local service at the specified port. 
+The URL can be obtained from the Localtunnel logs, by running:
 ```bash
 docker-compose logs -f lt
 ```
 
 Look for a line similar to:
 ```bash
-your localtunnel url is: https://yoursubdomain.loca.lt
+your localtunnel url is: https://<random_subdomain>.loca.lt
 ```
 Visit this URL in your web browser to access n8n.
 
